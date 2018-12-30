@@ -1,0 +1,15 @@
+security:
+  basic:
+    enabled: false
+  oauth2:
+    client:
+      clientId: foo
+      clientSecret: bar
+      accessTokenUri: http://localhost:8080/security/oauth/token
+      userAuthorizationUri: http://localhost:8080/security/oauth/authorize
+    resource:
+      userInfoUri: http://localhost:8080/security/user/me
+
+#management:
+#  security:
+#    enabled: false
